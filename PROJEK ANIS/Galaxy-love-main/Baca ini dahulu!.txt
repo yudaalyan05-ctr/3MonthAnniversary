@@ -1,0 +1,34 @@
+Cara mengubah deskripsi planet *Harus ada Visual Studio Code atau Sejenisnya* >>
+
+
+Mengubah tampilan awal Planet
+1.klik kanan pada file index.html > open with > Visual Studio Code.
+2.Pada Line 57, Masukkan nama kamu disana (bagian ....)
+
+Mengubah deskripsi planet
+1.klik kanan pada file script.js > open with > Visual Studio Code.
+2.Pergi ke line 588 , disana terdapat instruksi untuk mengubah deskripsi planet.
+
+--- Selesai ---
+
+Cara mempublikasikan atau Share ke teman/pacar kalian :
+
+1.Buka browser
+2.Buat akun pada github..jalani proses pendaftaran akun sampai selesai
+3.Klik tombol New (warna hijau)	, nantinya kamu akan menuju create new Repository.
+4. Isi nama repositorynya dengan unsername akun kamu (Kalau tidak tau, cukup lihat kotak *Owner* disitu unsername kamu. dan ketik) dan tambahkan .github.io
+contoh Miko-Ard.github.io
+Deskripsi tidak usah. selanjutnya Klik create repository (warna hijau)
+
+5.Buka folder sebelumnya,klik kanan dan buka terminal/cmd . ketik
+  git init
+  git add .
+  git commit -m "first"
+  git remote add origin (link repo github kamu)
+  git branch -M main
+  git push -u origin main
+
+6.Sekarang coba tes dengan memasukkan link nama repository kamu
+contoh Miko-Ard.github.io
+
+Selesai!
